@@ -6,24 +6,28 @@ const books = [
     title: "Atomic Habits",
     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
     price: 25,
+    quantity: 5,
   },
   {
     id: 2,
     title: "Deep Work",
     image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
     price: 18,
+    quantity: 15,
   },
   {
     id: 3,
     title: "The Psychology of Money",
     image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
     price: 20,
+    quantity: 10,
   },
   {
     id: 4,
     title: "48 Laws of Power",
     image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
     price: 30,
+    quantity: 5,
   },
 ];
 
