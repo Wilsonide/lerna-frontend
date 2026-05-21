@@ -1,5 +1,5 @@
-import BookForm from "@/components/admin/create-book-form";
+import CreateAuthorForm from "@/components/admin/create-author-form";
 
-export default function CreateBookPage() {
-  return <BookForm mode="create" />;
+export default function CreateAuthorPage() {
+  return <CreateAuthorForm />;
 }
