@@ -14,7 +14,7 @@ import { ChevronsLeftRight, LogOut, User } from "lucide-react";
 
 const UserItem = () => {
   // render user item with avatar, name, and email
-  const { Auth: user } = useAuth();
+  const { auth: user } = useAuth();
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -24,7 +24,7 @@ const UserItem = () => {
         >
           <div className="gap-x-2 flex items-center max-w-37.5">
             <Avatar className="mr-2">
-              <AvatarImage src={user?.profile || ""} />
+              <AvatarImage src={""} />
               <AvatarFallback className="bg-sky-500">
                 <User className="text-white" />
               </AvatarFallback>
@@ -49,7 +49,7 @@ const UserItem = () => {
           <div className="flex items-center gap-x-2">
             <div className="rounded-md bg-secondary p-1">
               <Avatar className=" h-8 w-8">
-                <AvatarImage src={user?.profile || ""} />
+                <AvatarImage src={""} />
                 <AvatarFallback className="bg-sky-500">
                   <User className="text-white" />
                 </AvatarFallback>
